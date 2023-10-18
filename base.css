@@ -5,13 +5,14 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .wrapper {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color:white;
 }
 .main {
     display: flex;
@@ -20,19 +21,31 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
-}
-.header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
-}
-.content {
     background-color: white;
-    min-height: 300px;
-    padding: 20px;
+    padding: 10px 20px 0px;
+    color:rgb(0, 65, 136);
 }
+a {
+    color: rgb(0, 65, 136);
+}
+
+a:hover {
+    color: green;
+}
+
+.header {
+    background-color:white;
+    min-height: 150px;
+    padding-bottom: 50px;
+   
+}
+
+form {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color:white;
     min-height: 150px;
 }
